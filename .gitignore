@@ -1,0 +1,43 @@
+# =========================
+# Backend - Spring Boot
+# =========================
+
+hotel_backend/target/
+hotel_backend/.idea/
+hotel_backend/*.iml
+
+# =========================
+# Frontend - Next.js
+# =========================
+
+hotel_frontend/node_modules/
+hotel_frontend/.next/
+hotel_frontend/out/
+hotel_frontend/.vercel/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+hotel_backend/.env
+hotel_frontend/.env
+hotel_backend/src/main/resources/application-local.properties
+hotel_frontend/.env.local
+hotel_frontend/.env.production
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
