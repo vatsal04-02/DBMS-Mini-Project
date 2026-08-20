@@ -31,8 +31,9 @@ interface Room {
   status: string;
 }
 
+
 const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080";
+  process.env.NEXT_PUBLIC_API_URL || "https://hotel-backend-jsds.onrender.com";
 
 export default function BookingsPage() {
   const [bookings, setBookings] = useState<Booking[]>([]);
